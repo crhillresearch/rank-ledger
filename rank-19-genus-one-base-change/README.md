@@ -34,12 +34,16 @@ the covers are combined.
 ## Check it
 
 The [proof note](PROOF.md) has the full argument. The [`data/`](data/)
-folder holds the equations, section coordinates, and height matrices. To
-replay the exact calculations with SageMath, run:
+folder holds the equations, section coordinates, and height matrices.
+From this directory, run the verifier with SageMath's Python. With a
+standard SageMath installation:
 
 ```bash
 sage -python verify.py
 ```
+
+If SageMath is installed in a Conda environment, activate that environment
+and run `python verify.py` instead.
 
 The verifier checks the equations, the 19-section argument, the infinite
 order point, and the finite-field calculations used for trivial torsion.

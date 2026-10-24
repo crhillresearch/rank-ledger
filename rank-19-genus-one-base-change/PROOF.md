@@ -175,11 +175,14 @@ rank at least nineteen.
 
 ## How to check the packet
 
-From this directory, with SageMath installed:
+From this directory, using a standard SageMath installation:
 
 ```
 sage -python verify.py
 ```
+
+For a Conda SageMath installation, activate its environment and run
+`python verify.py` instead.
 
 The program checks the parent and pullback Weierstrass equations, all 53
 section identities, the three exact height matrices, both cover maps, the
