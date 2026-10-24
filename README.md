@@ -6,4 +6,8 @@ Most of this work begins in [Rank Hunter](https://github.com/crhillresearch/rank
 
 ## Entries
 
-### [A genus-one family with rank at least 19](rank-19-genus-one-base-change/)
+### [From 17 to 19](rank-19-genus-one-base-change/)
+
+Two quadratic covers, two new sections, and a genus-one parameter curve
+with infinitely many rational specializations. The first entry includes
+the proof and exact data.

@@ -1,6 +1,4 @@
-# A genus-one base change carrying nineteen independent sections
-
-Draft note for Andrej Dujella · 24 October 2026
+# Proof notes: nineteen sections from two quadratic covers
 
 ## What is proved
 
@@ -10,15 +8,11 @@ parameter curve has a rational point of infinite order. Consequently there
 are infinitely many elliptic curves over **Q** with rank at least nineteen.
 They can be chosen to have trivial rational torsion.
 
-This is a lower bound. We do not claim that the generic rank is exactly
-nineteen, nor that each specialized curve has exact rank nineteen. Dujella's
-table already gives `C(0) >= 19`, credited to Elkies. We have not yet compared
-this pair of covers with Elkies's published pair up to isomorphism. The
-construction below is offered as an explicit, independently checkable example,
-not as an increase in the numerical bound.
+This proves a lower bound. It does not determine the exact generic rank or
+the exact rank of any particular specialization.
 
 The complete Weierstrass equations, all section coordinates, and the height
-matrices are in the three small JSON files under `data/`. The short Sage
+matrices are in the four JSON files under `data/`. The short Sage
 program `verify.py` reads only those files and rechecks the identities and
 height calculations; no Rank Hunter database or plugin is needed.
 
@@ -200,13 +194,3 @@ CERTIFIED: infinitely many trivial-torsion curves have rank at least 19 (by spec
 The four `data/*.json` files contain the exact arithmetic inputs; `verify.py`
 does not query an external service or database. `SHA256SUMS` records their
 checksums.
-
-## Context
-
-Dujella's [table of infinite families](https://dujella.github.io/tors/generic.html)
-currently credits Elkies with `C(0) >= 19`. Elkies's
-[2026 paper](https://arxiv.org/html/2608.25406v1) also constructs a
-rank-19 family over a positive-rank genus-one base by pairing quadratic
-covers. We have not established whether the present surface and cover pair
-are inequivalent to his example. That comparison is separate from the
-proof above, and we do not claim a new numerical record.
