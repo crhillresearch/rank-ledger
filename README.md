@@ -7,10 +7,16 @@ Most of this work begins in [Rank Hunter](https://github.com/crhillresearch/rank
 ## Entries
 
 ### [From 17 to 19](rank-19-genus-one-base-change/)
-:page_facing_up: Nineteen Independent Sections from Two Quadratic Covers of an Elliptic K3 Surface 
+
+:page_facing_up: Nineteen Independent Sections from Two Quadratic Covers of an Elliptic K3 Surface
   [HTML](https://hillaxiom.com/papers/k3-19-sections.html) | [PDF](https://hillaxiom.com/pdf/k3-19-sections.pdf)
-  
+
 Two quadratic covers, two new sections, and a genus-one parameter curve
 with infinitely many rational specializations. The first entry includes
 the proof and exact data.
 
+### [C2 family of rank at least 11](c2-rank-11-genus-one-family/)
+
+Two quadratic covers add independent sections over a genus-one base. This
+entry includes the proof, exact data, and a SageMath verifier. Its literature
+comparison remains open pending publication.
