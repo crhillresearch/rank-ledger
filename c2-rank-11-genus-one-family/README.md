@@ -13,9 +13,8 @@ parameter line. This is a rank **lower bound**; I have not proved exact rank
 
 ## Disclaimer
 
-I've established that the parent K3 differs from Elkies's 2007 example.
-I have **not** eliminated possible overlap with Elkies 2009 or
-Dujella–Peral 2023.
+I've established that the parent K3 differs from Elkies's (2007) and Dujella–Peral (2023) examples.
+I have **not** eliminated possible overlap with Elkies (2009).
 
 ## Check it
 
