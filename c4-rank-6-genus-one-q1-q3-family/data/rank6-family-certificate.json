@@ -1,0 +1,31 @@
+{
+  "status": "certified_rank_lower_bound_relative_to_Elkies_Klagsbrun_parent_theorem",
+  "rank_lower_bound": 6,
+  "parent_rank_lower_bound": 4,
+  "torsion_subgroup": "C4",
+  "base_field": "Q(t)(sqrt(q1),sqrt(q3))",
+  "parameter_base_genus": 1,
+  "data_files": [
+    "parent-c4-k3.json",
+    "quadratic-covers.json",
+    "genus-one-base.json",
+    "specializations.csv"
+  ],
+  "distinct_rational_t_values": 6,
+  "rational_base_points": 24,
+  "mazur_maximum_rational_torsion_order": 16,
+  "positive_rank_base_proved": true,
+  "inherited_independence_source": "Elkies and Klagsbrun (2020), section 11",
+  "test_fiber_t": "7/3",
+  "test_fiber_group_orders": {
+    "19": 24,
+    "41": 44
+  },
+  "new_sections_nontorsion": [
+    "q1",
+    "q3"
+  ],
+  "infinitely_many_exact_C4_rank6_specializations": true,
+  "exact_generic_rank_claimed": false,
+  "originality_claimed": false
+}

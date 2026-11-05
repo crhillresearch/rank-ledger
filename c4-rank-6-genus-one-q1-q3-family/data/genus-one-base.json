@@ -1,0 +1,29 @@
+{
+  "rational_parameters": [
+    "7/3",
+    "-53/7",
+    "-287/367",
+    "-283/368",
+    "-83/848",
+    "-317/1191"
+  ],
+  "test_fiber": {
+    "t": "7/3",
+    "sqrt_q1": "259",
+    "sqrt_q3": "1085/3",
+    "A": "not precomputed - verifier recomputes",
+    "B": "not precomputed - verifier recomputes",
+    "point_q1": [
+      "63504",
+      "96857712"
+    ],
+    "point_q3": [
+      "-384160/9",
+      "3155874400/81"
+    ],
+    "torsion_good_reduction_orders": {
+      "19": 24,
+      "41": 44
+    }
+  }
+}

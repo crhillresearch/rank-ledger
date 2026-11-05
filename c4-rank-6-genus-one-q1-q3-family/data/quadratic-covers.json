@@ -1,0 +1,29 @@
+{
+  "new_covers": [
+    {
+      "label": "q1",
+      "q_coeff_low_to_high": [
+        "665",
+        "2620",
+        "11076"
+      ],
+      "x": "36*(15*t-8)*(31*t-7)",
+      "y_factor": "12*(15*t-8)*(31*t-7)*(8*t-1)",
+      "coordinates": "(x, y_factor*sqrt(q1(t)))",
+      "branch_disc": "-22597760"
+    },
+    {
+      "label": "q3",
+      "q_coeff_low_to_high": [
+        "8701",
+        "352",
+        "22276"
+      ],
+      "x": "-196*(t+1)*(31*t-7)",
+      "y_factor": "28*(t+1)*(31*t-7)*(8*t-1)",
+      "coordinates": "(x, y_factor*sqrt(q3(t)))",
+      "branch_disc": "-775170000"
+    }
+  ],
+  "simultaneous_cover": "s1^2 = 11076*t^2+2620*t+665, s3^2 = 22276*t^2+352*t+8701"
+}
