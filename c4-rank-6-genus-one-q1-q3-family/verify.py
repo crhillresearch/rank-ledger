@@ -112,6 +112,17 @@ for item in DATA['new_covers']:
     covers[name]=(q,x,yfactor)
     pass_check(f'new section {name}: exact identity and squarefree quadratic cover')
 q1,x1,z1=covers['q1'];q3,x3,z3=covers['q3']
+u,r=S.symbols('u r')
+for item in COVERS['dujella_peral_2021_maps']:
+    q=covers[item['cover']][0]
+    N=parse(item['numerator'],{'u':u})
+    D=parse(item['denominator'],{'u':u})
+    disc=S.discriminant(N-t*D,u)
+    assert exact_equal(disc,item['discriminant_multiplier']*q)
+    inverse=parse(item['inverse_cover_parameter'],{'t':t,'sqrt_q1':r,'sqrt_q3':r})
+    numerator=S.together(N.subs(u,inverse)-t*D.subs(u,inverse)).as_numer_denom()[0]
+    assert S.Poly(numerator,r).rem(S.Poly(r*r-q,r)).is_zero
+pass_check('q1 and q3 are the covers in Dujella-Peral 2021 maps 4 and 7')
 assert S.gcd(q1,q3) == 1
 resultant = S.resultant(q1,q3,t)
 assert resultant!=0

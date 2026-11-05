@@ -15,9 +15,11 @@ curve to have positive rank, so this construction gives infinitely many
 rational curves with **exact C4 torsion and rank at least 6**.
 
 The four starting sections are Elkies's, and I use their published
-independence theorem. This is a rank lower bound, not a new rank record or an
-exact generic-rank calculation. Elkies described the rank-six pairing idea
-in 2007 without printing his pairs, so I do not claim priority for this pair.
+independence theorem. **Both quadratic covers also appear in Dujella and
+Peral's 2021 list**, as substitutions 4 and 7. The proof note gives the exact
+map identities and corrects my earlier mistaken comparison. This is a rank
+lower bound, not a new rank record, an exact generic-rank calculation, or an
+originality claim for these covers or their pairing.
 
 ## Check it
 

@@ -213,12 +213,23 @@ Elkies also described rank-six families made by pairing quadratic sections,
 but did not print the pairs there.
 
 [Dujella and Peral's 2021 survey](https://web.math.pmf.unizg.hr/~duje/pdf/DujellaPeralConstruction.pdf),
-§4, prints 26 quadratic substitutions on this surface. For each printed map
-\(t=N(u)/D(u)\), I compared the roots of
-\(\operatorname{disc}_u(N(u)-tD(u))\) with those of \(q_1\) and \(q_3\).
-Neither cover matches any printed substitution over the fixed Elkies
-parameter \(t\), even after reparametrizing \(u\). The 2021 text does not
-specify every rank-six pair, so this does not settle priority.
+§4, prints these **same two quadratic covers** as entries 4 and 7 of its
+substitution list:
+
+\[
+t=-\frac{u^2-212u+596}{4(u^2-11076)},\qquad
+t=-\frac{u^2-350u+21924}{u^2-22276}.
+\]
+
+Taking the discriminant in \(u\) of each equation \(N(u)-tD(u)=0\) gives
+exactly \(64q_1(t)\) and \(4q_3(t)\), respectively. The cover coordinates
+are related by \(u=(106+4\sqrt{q_1})/(1+4t)\) and
+\(u=(175+\sqrt{q_3})/(1+t)\). `verify.py` checks these identities. My earlier
+comparison applied the leading minus sign to only the first term of each
+numerator; that error produced the false claim that the covers differed.
+The 2021 text says that several pairings yield rank-six families but does
+not identify every pair there. I cannot claim this pair as an original
+construction.
 
 Their [2022 rank-six paper](https://web.math.pmf.unizg.hr/~duje/pdf/Rank6-TorsionZ4.pdf)
 uses two covers with rational branch points and obtains a rational parameter
@@ -227,7 +238,7 @@ their branch points are nonreal, and their common base has genus one. Thus
 these are different explicit covers over \(t\). A more indirect equivalence
 of the resulting elliptic families has not been ruled out.
 
-The pair in this entry also differs from the pair in the neighboring C4
+The pair in this entry differs from the pair in the neighboring C4
 entry: those two branch quadratics have positive discriminant, while both
 quadratics here have negative discriminant.
 

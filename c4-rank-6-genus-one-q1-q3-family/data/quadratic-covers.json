@@ -25,5 +25,23 @@
       "branch_disc": "-775170000"
     }
   ],
-  "simultaneous_cover": "s1^2 = 11076*t^2+2620*t+665, s3^2 = 22276*t^2+352*t+8701"
+  "simultaneous_cover": "s1^2 = 11076*t^2+2620*t+665, s3^2 = 22276*t^2+352*t+8701",
+  "dujella_peral_2021_maps": [
+    {
+      "cover": "q1",
+      "list_position": 4,
+      "numerator": "-(u^2-212*u+596)",
+      "denominator": "4*(u^2-11076)",
+      "discriminant_multiplier": 64,
+      "inverse_cover_parameter": "(106+4*sqrt_q1)/(1+4*t)"
+    },
+    {
+      "cover": "q3",
+      "list_position": 7,
+      "numerator": "-(u^2-350*u+21924)",
+      "denominator": "u^2-22276",
+      "discriminant_multiplier": 4,
+      "inverse_cover_parameter": "(175+sqrt_q3)/(1+t)"
+    }
+  ]
 }
