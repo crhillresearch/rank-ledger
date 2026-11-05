@@ -1,0 +1,49 @@
+{
+  "status": "certified_rank_lower_bound_relative_to_Elkies_Klagsbrun_parent_theorem",
+  "parent_rank_lower_bound": 4,
+  "rank_lower_bound": 6,
+  "torsion_subgroup": "C4",
+  "base_field": "Q(t)(sqrt(qA),sqrt(qB))",
+  "parameter_base_genus": 1,
+  "independent_square_classes": true,
+  "auxiliary_positive_rank_proved": true,
+  "infinitely_many_rank6_specializations": true,
+  "exact_generic_rank_claimed": false,
+  "parent_independence_source": "Elkies and Klagsbrun (2020), section 11",
+  "common_fiber_t": "-38323/227116",
+  "cover_anti_invariant_witnesses": [
+    "A",
+    "B"
+  ],
+  "auxiliary_nontorsion_point_XY": [
+    "-101444794609024256688",
+    "16067387279706471686378520000"
+  ],
+  "torsion_preserving_progression_step": 728,
+  "data_files": [
+    "parent-c4-k3.json",
+    "quadratic-covers.json",
+    "common-fiber.json",
+    "genus-one-base.json"
+  ],
+  "common_fiber_good_prime_orders": {
+    "13": 20,
+    "19": 16,
+    "43": 36,
+    "47": 56,
+    "53": 48
+  },
+  "auxiliary_jacobian_good_prime_orders": {
+    "37": 30,
+    "41": 48,
+    "43": 56,
+    "47": 52,
+    "53": 56
+  },
+  "common_fiber_torsion_order_bound": 4,
+  "auxiliary_jacobian_torsion_order_bound": 2,
+  "anti_invariant_fourfold_nonzero": {
+    "A": true,
+    "B": true
+  }
+}

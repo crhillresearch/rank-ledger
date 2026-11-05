@@ -1,0 +1,13 @@
+{
+  "title": "Two quadratic directions on the Elkies–Klagsbrun discriminant-163 C4 K3",
+  "base": "y^2=x^3+(a(t)^2-8b(t))x^2+16b(t)^2x",
+  "a": "(8*t-1)*(32*t+7)",
+  "b": "8*(t+1)*(15*t-8)*(31*t-7)",
+  "g": "(15*t-8)*(31*t-7)",
+  "four_Elkies_Klagsbrun_Tate_x_coordinates": [
+    "-15/4*(t+1)*(31*t-7)*(32*t+7)",
+    "(8*t-1)*(15*t-8)*(31*t-7)*(32*t+7)",
+    "-(t+1)*(8*t-1)*(15*t-8)*(32*t+7)",
+    "-4*(t+1)*(2*t+5)*(15*t-8)*(32*t+7)"
+  ]
+}
